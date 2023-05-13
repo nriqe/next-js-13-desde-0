@@ -105,3 +105,11 @@ a {
     color-scheme: dark;
   }
 }
+
+html {
+  font-family: var(--font-roboto);
+}
+
+h1 {
+  font-family: var(--font-roboto);
+}
