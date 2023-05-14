@@ -5,15 +5,15 @@ const nextConfig = {
   skipTrailingSlashRedirect: true,
   skipMiddlewareUrlNormalize: true,
   experimental: {
-    appDir: true
+    appDir: true,
   },
   images: {
     remotePatterns: [
       {
-        hostname: "rickandmortyapi.com"
-      }
-    ]
-  }
-}
+        hostname: "rickandmortyapi.com",
+      },
+    ],
+  },
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;

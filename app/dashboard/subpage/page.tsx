@@ -1,13 +1,13 @@
-import React from 'react'
-import NotFoundComponent from './components/NotFoundComponent'
+import React from "react";
+import NotFoundComponent from "./components/NotFoundComponent";
 
 function SubPage() {
   return (
     <div>
-        SubPage
-        <NotFoundComponent />
+      SubPage
+      <NotFoundComponent />
     </div>
-  )
+  );
 }
 
-export default SubPage
+export default SubPage;
